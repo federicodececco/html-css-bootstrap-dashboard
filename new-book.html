@@ -76,11 +76,12 @@
       </div>
     </nav>
     <header class="container">
-      <div><h2>Nuovo Libro</h2></div>
+      <div class="my-4 my-lg-5"><h2>Nuovo Libro</h></div>
     </header>
     <main class="container">
-      <section class="row">
+      <section class="row mb-3 ">
         <div class="col-lg-6">
+            <h4>Nome Autore</h4>
           <div class="form-floating mb-3">
             <input
               class="form-control"
@@ -91,6 +92,7 @@
           </div>
         </div>
         <div class="col-lg-6">
+            <h4>Cognome Autore</h4>
           <div class="form-floating">
             <textarea
               class="form-control"
@@ -103,7 +105,22 @@
           </div>
         </div>
       </section>
-
+      <div class="row">
+        <div>
+            <h4>Titolo</h4>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea"
+                >Inserisci il titolo del libro</label
+              >
+            </div>
+            <p class="text-secondary">Titolo versione italiana</p>
+      </div>
+    </div>
       <div></div>
       <div></div>
     </main>
